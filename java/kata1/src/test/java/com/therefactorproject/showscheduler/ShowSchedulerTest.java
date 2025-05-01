@@ -1,9 +1,14 @@
+package com.therefactorproject.showscheduler;
+
+import com.therefactorproject.show.Show;
 import org.junit.jupiter.api.Test;
+
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class ShowSchedulerTest {
+class ShowSchedulerTest {
 
     private final Show blindWonderShow = createTightropeShow("The Blind Wonder", 20.0, true);
     private final Show funnyJoeShow = createClownShow("Funny Joe", List.of("joke about Chuck Norris 1", "joke about Chuck Norris 2"));

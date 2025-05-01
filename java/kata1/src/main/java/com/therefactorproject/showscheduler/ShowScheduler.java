@@ -1,3 +1,7 @@
+package com.therefactorproject.showscheduler;
+
+import com.therefactorproject.show.Show;
+
 import java.util.List;
 
 public class ShowScheduler {

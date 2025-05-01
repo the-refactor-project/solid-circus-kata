@@ -1,3 +1,5 @@
+package com.therefactorproject.acrobatshowpass;
+
 public class AcrobatShowPass {
     private final String name;
     private final double basePrice;
